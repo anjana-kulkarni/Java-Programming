@@ -1,0 +1,15 @@
+package program13;
+
+public class FinanceCalculatorApp {
+	public static void main(String[] args) {
+		double simpleintrest;
+		double principal=1000.0;
+		double time=0.05;
+		double rate=0.05;
+		FinanceCalculator f=new FinanceCalculator();
+		double d =f.calculateSimpleInterest(principal,rate,time);
+		System.out.println(d);
+	}
+	
+
+}

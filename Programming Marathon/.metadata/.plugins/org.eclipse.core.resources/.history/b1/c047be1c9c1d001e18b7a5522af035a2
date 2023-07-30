@@ -1,0 +1,9 @@
+package program11;
+
+public class PlanetExplorerApp {
+public static void main(String[] args) {
+	PlanetExplorer explorer = new PlanetExplorer();
+
+	System.out.printf("%.3f",explorer.calculateSurfaceArea(3.0));
+}
+}

@@ -1,0 +1,20 @@
+import java.util.*;
+public class JourneyCalculator {
+
+	public static void main(String[] args) {
+		double spped;
+		double time;
+		JourneyCalculatorApp c=new JourneyCalculatorApp();
+		System.out.println(c.calculateDistance(60.0,1.5));
+		
+
+	}
+
+}
+class JourneyCalculatorApp{
+	public double calculateDistance(double speed,double time) {
+		double distance=speed*time;
+		return distance;
+	}
+	
+}

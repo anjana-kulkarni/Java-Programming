@@ -1,0 +1,36 @@
+
+public class ArithmeticOperation {
+	public static void main(String[] args) {
+		System.out.println("Enter the two numbers");
+		int num2=20;
+		int num1=5;
+		int res1=subtractNumbers(num1,num2);
+		System.out.println(res1);
+		int num3=4;
+		int num4=5;
+		int res2=subtractNumbers(num3,num4);
+		System.out.println(res2);
+		int num5=20;
+		int num6=4;
+		int res3=subtractNumbers(num5,num6);
+		System.out.println(res3);
+		int num7=10;
+		int num8=3;
+		int res4=subtractNumbers(num7,num8);
+		System.out.println(res4);
+		
+		
+	}
+public static int subtractNumbers(int num1,int num2) {
+	return num2-num1;
+}
+public static int multiplyNumbers(int num3,int num4) {
+	return num3*num4;
+}
+public static int divideNumbers(int num5,int num6) {
+	return num5/num6;
+}
+public static int findRemainder(int num7,int num8) {
+	return num7%num8;
+}
+}

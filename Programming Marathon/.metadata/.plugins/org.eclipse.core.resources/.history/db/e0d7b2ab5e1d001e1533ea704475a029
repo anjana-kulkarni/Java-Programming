@@ -1,0 +1,10 @@
+package program10;
+
+public class SecreteMessgaeDecoder {
+	public static void main(String[] args) {
+		char ch='A';
+		MessageDecoder m=new MessageDecoder();
+		System.out.println(m.decodeCharacter(ch));
+	}
+
+}

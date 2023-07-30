@@ -1,0 +1,13 @@
+
+package program3;
+public class DoublrTrouble {
+	public static void main(String[] args) {
+		int nym1=15;
+		int res=doubleTheNumber(15);
+		System.out.println(res);
+	}
+public static int doubleTheNumber(int num) {
+	int num1=num*num;
+	return num1;
+}
+}

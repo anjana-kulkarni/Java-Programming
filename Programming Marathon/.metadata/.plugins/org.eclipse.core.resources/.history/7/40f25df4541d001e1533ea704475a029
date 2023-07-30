@@ -1,0 +1,20 @@
+package program6;
+
+public class TemperatureConverter {
+	public static void main(String[] args) {
+		TemperatureConverterApp c = new TemperatureConverterApp();
+	    System.out.println(c.convertFahrenheitToCelsius(68.0));
+	    
+		
+	}
+	}
+	class TemperatureConverterApp{
+		public double convertFahrenheitToCelsius(double Fahrenheit) {
+			double celcius=(Fahrenheit-32)*5/9;
+			return celcius;
+		}
+			
+		
+	}
+
+
